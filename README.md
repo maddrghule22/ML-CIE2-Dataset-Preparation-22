@@ -225,11 +225,11 @@ To ensure the repository is publicly accessible and can be reviewed without auth
    ```
 2. Create and push to a **public** GitHub repository using the GitHub CLI:
    ```bash
-   gh repo create ML-CIE2-Dataset-Preparation --public --source=. --remote=origin --push
+   gh repo create ML-CIE2-Dataset-Preparation-22 --public --source=. --remote=origin --push
    ```
 3. **Verify Public Accessibility:**
    * Open an Incognito / Private browsing window (where you are not logged in to GitHub).
-   * Navigate to the repository URL: `https://github.com/maddrghule22/ML-CIE2-Dataset-Preparation`.
+   * Navigate to the repository URL: `https://github.com/maddrghule22/ML-CIE2-Dataset-Preparation-22`.
    * Confirm that the repository contents, README, notebook, and `prepared_titanic.csv` are immediately readable without requiring login or access requests.
 
 ---
